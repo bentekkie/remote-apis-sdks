@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/bazelbuild/remote-apis v0.0.0-20230411132548-35aee1c4a425
 	github.com/golang/glog v1.1.0
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.3.0
 	github.com/hectane/go-acl v0.0.0-20230122075934-ca0b05cb1adb
 	github.com/klauspost/compress v1.17.8

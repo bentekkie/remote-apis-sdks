@@ -1,4 +1,4 @@
-load("@bazel_gazelle//:deps.bzl", "go_repository")
+load("@gazelle//:deps.bzl", "go_repository")
 
 def remote_apis_sdks_go_deps():
     go_repository(

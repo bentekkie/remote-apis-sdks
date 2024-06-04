@@ -12,7 +12,7 @@ go_library(
     visibility = ["//visibility:public"],
     deps = [
         "//go/pkg/balancer/proto",
-        "@org_golang_google_grpc//:go_default_library",
+        "@org_golang_google_grpc//:grpc",
         "@org_golang_google_grpc//balancer",
         "@org_golang_google_grpc//connectivity",
         "@org_golang_google_grpc//grpclog",
